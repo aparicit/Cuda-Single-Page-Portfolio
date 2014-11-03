@@ -1,0 +1,111 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	margin:0px;
+	padding:0px;
+	border:0px;
+	}
+
+#wrapper{
+	height:6160px;
+	width:1440px;
+	background-color:#666;
+	}
+
+#header{
+	height:596px;
+	width:1440px;
+	background-color:#87509c;
+	}
+
+#service{
+	height:745px;
+	width:1440px;
+	background-color:#17c2a4;
+	}
+	
+#team{
+	height:915px;
+	width:1440px;
+	background-color:#e7f1f8;
+	}
+	
+#skill{
+	height:615px;
+	width:1440px;
+	background-color:#ffffff;
+	}
+	
+#portfolio{
+	height:1423px;
+	width:1440px;
+	background-color:#ffdd99;
+	}
+	
+.logo{
+	background-image:url(img/logo.png);
+	width:117px;
+	height:37px;
+	float:left;
+	margin-left:205px;
+	margin-top:50px;
+	}
+.menu{
+	height:50px;
+	width:450px;
+	float:left;
+	margin-left:470px;
+	margin-top:60px;
+	}
+
+.menu ul{
+	list-style-type:none;
+	}
+.menu ul li{
+	float:left;
+	margin-left:20px;
+	}
+
+.menu ul li a{
+	text-decoration: none;
+	color: #FFF;
+	padding: 4px;
+	border-radius:4px;
+	}	
+.menu ul li a:hover{
+	background-color:#303;
+	}
+.header_para{
+	height:200px;
+	width:850px;
+	color:#FFF;
+	font-size:42px;
+	float:left;
+	margin-top:120px;
+	margin-left:250px;
+	text-align:center;
+	}
+	
+.work_with_us{
+	width:293px;
+	height:70px;
+	float:left;
+	margin-left:550px;
+	}
+.work_with_us a{
+	background-color:#eb7d4b;
+	text-align:center;
+	text-decoration:none;
+	color:#FFF;
+	font-size:18px;
+	padding-top:22px;
+	line-height:65px;
+	padding-bottom:27px;
+	padding-left:76px;
+	padding-right:77px;
+	border-radius:5px;
+	}
+.work_with_us a:hover{
+	background-color:#FFF;
+	color:#eb7d4b;
+	}
